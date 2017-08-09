@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/valorTemp"
-        android:hint="Saisir de température"
+        android:hint="@string/edt_label_temp"
         android:inputType="numberDecimal" />
 
     <RadioGroup
@@ -24,14 +24,14 @@
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fahrenheit pour Celcius"
+        android:text="@string/rd_label_fahr_pour_celcius"
         android:id="@+id/celciusRadio"
         android:checked="false"/>
 
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Celcius pour Fahrenheit"
+        android:text="@string/rd_label_celcius_pour_fahre"
         android:id="@+id/fahrenheitRadio"
         android:checked="true"/>
     </RadioGroup>
@@ -39,6 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/convertButton"
-        android:text="Convertir"/>
+        android:text="@string/btn_label_convertir"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>

@@ -28,7 +28,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun convertir(view: View){
-        var temp: Double = editText.text.toString().toDouble()
+        var temp: Double
+        when {
+            editText.text.isNullOrBlank() -> temp = 0.0
+            else -> temp = editText.text.toString().toDouble()
+        }
+
         if (celciuosRadio.isChecked){
 
             temp = (temp-32)*5/9

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Convertisseur de temperature</string>
+    <string name="edt_label_temp">Saisir de température</string>
+    <string name="rd_label_fahr_pour_celcius">Fahrenheit pour Celcius</string>
+    <string name="rd_label_celcius_pour_fahre">Celcius pour Fahrenheit</string>
+    <string name="btn_label_convertir">Convertir</string>
 </resources>
