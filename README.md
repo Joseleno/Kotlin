@@ -7,3 +7,5 @@ FUNCTIONS
 IF
 WHEN.
 
+deuxième app FEED-READER
+Exemple de RecyclerView et CardView
